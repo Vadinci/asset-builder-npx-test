@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+(()=>{"use strict";var r={607:(r,o,e)=>{var s=e(747);console.log("hello world!"),console.log(process.argv),s.readdirSync(".").forEach((function(r){console.log(r)}))},747:r=>{r.exports=require("fs")}},o={};!function e(s){if(o[s])return o[s].exports;var t=o[s]={exports:{}};return r[s](t,t.exports,e),t.exports}(607)})();

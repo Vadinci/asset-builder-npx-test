@@ -1,0 +1,29 @@
+{
+  "name": "asset-builder-npx-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "bin": {
+    "npx-test": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack && chmod +x bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadinci/asset-builder-npx-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vadinci/asset-builder-npx-test/issues"
+  },
+  "homepage": "https://github.com/Vadinci/asset-builder-npx-test#readme",
+  "devDependencies": {
+    "ts-loader": "^8.0.16",
+    "typescript": "^4.1.3",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
